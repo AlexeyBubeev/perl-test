@@ -17,7 +17,7 @@ use Email::Valid; # все стандарты email адресов
 use Email::Address; # корректная работа с email
 use 5.18.2;
 
-open FILE, "../test.txt" or open FILE, "test.txt" or die "Can't open file";
+open FILE, "../test.txt" or open FILE, "test.txt" or die "Can't open file test.txt";
 my (%emails,$bad_count,$adr_length,$max_length);
 
 $bad_count = 0;

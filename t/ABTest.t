@@ -28,9 +28,9 @@ subtest 'test email' => sub {
 };
 
 subtest 'test email domain path' => sub {
-    my $test_email_d = 'username@domenname.com';
-    my $el_d = Email::Address->parse($test_email_d);
-    ok($el_d==1,'test email domian path');
+    my $test_email_dp = 'username@domenname.com';
+    my $el_dp = Email::Address->parse($test_email_dp);
+    ok($el_dp==1,'test email domian path');
 };
 
 done_testing();
